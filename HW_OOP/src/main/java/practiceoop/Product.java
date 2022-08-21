@@ -1,4 +1,4 @@
-package org.test;
+package practiceoop;
 
 public  class Product {
     private int ProductIndex;

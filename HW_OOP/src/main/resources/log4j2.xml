@@ -7,16 +7,16 @@
     </Appenders>
     <Loggers>
         <!-- avoid duplicated logs with additivity=false -->
-        <Logger name="org.test.Main" level="warn" additivity="false">
+        <Logger name="practiceoop.Main" level="warn" additivity="false">
             <AppenderRef ref="LogToConsole"/>
         </Logger>
-        <Logger name = "org.test.Client" level="info" additivity="false">
+        <Logger name = "practiceoop.Client" level="info" additivity="false">
             <AppenderRef ref="LogToConsole"/>
         </Logger>
-        <Logger name = "org.test.Moderator" level="info" additivity="false">
+        <Logger name = "practiceoop.Moderator" level="info" additivity="false">
             <AppenderRef ref="LogToConsole"/>
         </Logger>
-        <Logger name = "org.test.Master" level="info" additivity="false">
+        <Logger name = "practiceoop.Master" level="info" additivity="false">
             <AppenderRef ref="LogToConsole"/>
         </Logger>
         <Root level="error">

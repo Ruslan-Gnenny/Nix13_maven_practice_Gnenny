@@ -1,4 +1,4 @@
-package org.test;
+package practiceoop;
 
 public abstract class  Person {
     private int index;
