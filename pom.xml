@@ -13,7 +13,8 @@
         <module>hw5</module>
         <module>hw6</module>
         <module>hw7</module>
-        <module>hw8</module>
+        <module>hw8-9</module>
+        <module>HW_OOP</module>
     </modules>
 
     <packaging>pom</packaging>
